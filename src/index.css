@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.headbox{
+    background-color:darkblue;
+}
+.logo{
+    background-color: darkblue;
+    margin-left: 120px;
+}
+.my-logo{
+    width: 60px;
+    margin-top: 18px;
+}
+
+.hero-box{
+    background-color:darkblue;
+    height: auto;
+    color: white;
+    width: 100%;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    gap: 12px;
+    line-height: 1.7;
+    margin: 0 auto;
+    }
+
+.hero-img img{
+    background:transparent;
+}
+h1{
+    font-weight: bold;
+}
+.ex-btn{
+    background-color: blue;
+    color: white;
+    border: none;
+    line-height: 1.6;
+    font-weight: bold;
+    padding: 10px 16px;
+    margin-top: 16px;
+    border-radius: 5px;
+    margin-right: 8px;
+}
+.cont-btn{
+    background-color:darkblue;
+    color: white;
+    border: 1px solid white;
+    line-height: 1.6;
+    font-weight: bold;
+    padding: 10px 30px;
+    margin-top: 16px;
+    border-radius: 5px;
+    margin-left: 8px;
+}
