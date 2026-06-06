@@ -5,16 +5,35 @@
 }
 .headbox{
     background-color:darkblue;
-}
-.logo{
-    background-color: darkblue;
-    margin-left: 120px;
-}
-.my-logo{
-    width: 60px;
-    margin-top: 18px;
+    width: 100%;
+  
 }
 
+.headbox img {
+    width: 60px;
+    display: block;
+    margin-left: 120px;
+}
+@media (max-width: 768px){
+  .headbox{
+    text-align: center;
+  }
+}
+@media (max-width: 1024px){
+  .headbox{
+    text-align: center;
+  }
+}
+@media (max-width: 768px){
+  .headbox img{
+    margin: 0 auto;
+  }
+}
+@media (max-width: 1024px){
+  .headbox img{
+    margin: 0 auto;
+  }
+}
 .hero-box{
     background-color:darkblue;
     height: auto;
@@ -27,6 +46,16 @@
     line-height: 1.7;
     margin: 0 auto;
     }
+  @media(max-width: 768px){
+    .hero-box{
+      display: flex;
+      flex-direction: column-reverse;
+      align-items: center;
+      text-align: center;
+      width: 100%;
+      
+    }
+  }
 
 .hero-img img{
     background:transparent;
